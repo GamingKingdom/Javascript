@@ -1,14 +1,13 @@
 
-var dst = function()
+var dst;
 {
-  if(dst)
+  if(!dst)
   {
-    new Object();
+    dst = {};
   }
-  else
+  else if(typeof dst = "object")
   {
-    return dst.isObject();
+    throw new Error("dst already exists and is an object");
   }
   
 }
- console.log(dst);
