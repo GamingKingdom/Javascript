@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Basics Allocations Project</title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="../css/JavaScriptBasicsAllocations.css">
+	<!-- TODO Add the script tag to link your JavaScript file to this document. -->
+</head>
+
+<!-- You can use the onload function to link events to HTML elements, or add the appropriate attribute to the elements below. -->
+<body onload="yourFunctionHere()">
+	
+	<div id="content">
+		<div id="registration">
+			<p class="header">Registration</p>
+			<p>Anne Smith</p>
+			<p>123 Broadway Boulevard, Kansas City, MO 64108</p>
+		</div>
+	
+		<form id="allocations">
+			<fieldset>
+				<legend class="header">Manage Your Allocations</legend>		
+					<table id="customerAllocations">
+						<tr>
+							<th class="left">Investment Option</th>
+							<th class="right" colspan="2">Allocation</th>
+						</tr>
+						
+						<tr class="alt">
+							<td class="fundList">
+								<label for="aggressiveGrowth">Aggressive Growth Fund</label>
+							</td>
+							<td class="allocation">
+								<input type="text" name="aggressiveGrowth" id="aggressiveGrowth" maxlength="3" value="0"/>
+							</td>
+							<td><span class="percentSign">%</span></td>
+						</tr>
+				
+						<tr>
+							<td class="fundList">
+								<label for="growth">Growth Fund</label>
+							</td>
+							<td class="allocation">
+								<input type="text" name="growth" id="growth" maxlength="3" value="0"/>
+							</td>
+							<td><span class="percentSign">%</span></td>
+						</tr>
+						
+						<tr class="alt">
+							<td class="fundList">
+								<label for="overseas">Overseas Fund</label>
+							</td>
+							<td class="allocation">
+								<input type="text" name="overseas" id="overseas" maxlength="3" value="0"/>
+							</td>
+							<td><span class="percentSign">%</span></td>
+						</tr>
+				
+						<tr>
+							<td class="fundList">
+								<label for="balanced">Balanced Fund</label>
+							</td>
+							<td class="allocation">
+								<input type="text" name="balanced" id="balanced" maxlength="3" value="0"/>
+							</td>
+							<td><span class="percentSign">%</span></td>
+						</tr>
+						
+						<tr class="alt">
+							<td class="fundList">
+								<label for="fixedIncome">Fixed Income Fund</label>
+							</td>
+							<td class="allocation">
+								<input type="text" name="fixedIncome" id="fixedIncome" maxlength="3" value="0"/>
+							</td>
+							<td><span class="percentSign">%</span></td>
+						</tr>
+						
+						<tr class="total">
+							<td id="totalLabel">
+								<span>Total</span>
+							</td>
+							<td class="allocation">
+								<span id="totalAmount">0</span>
+							</td>
+							<td><span class="percentSign">%</span></td>
+						</tr>
+						
+						<tr>
+							<td id="information" colspan="3">
+							Amounts should be numeric, whole
+							values and add up to 100%. you will be able to submit your
+							request when the allocation amount is 100%.
+							</td>
+						</tr>
+					</table>
+					<input id="submitAllocations" value="Submit Allocations" type="button" disabled />
+				</fieldset>
+		</form>
+
+		
+	
+	</div>
+</body>
+
+</html>
