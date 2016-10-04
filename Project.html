@@ -1,2897 +1,615 @@
-<div id="content" class="forum_list">
-	<div class="pageWidth">
-		<div class="pageContent">
-			<!-- main content area -->
-			
-			
-			
-			
-				<div class="mainContainer">
-					<div class="mainContent">
-						
-						
-						
-						
-						<div class="breadBoxTop ">
-							
-							
+<body class="nolinks">
+<div id="loading_msg" class="loading-top hidden">
+	Loading...
+</div>
+<div id="ajax-msg-top" class="ajax-msg-top" style="display:none;"></div>
 
-<nav>
+<div id="bootstrap-alert-box-modal" class="modal fade hidden">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p class="red"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn_global" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="fb-root"></div>
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+	
 	
 
-	<fieldset class="breadcrumb" style="">
-		<a href="index.php?misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheoverlay="true" title="Open quick navigation"><!--Jump to...--></a>
-			
-		<div class="boardTitle"><strong>Vainglory Community Forums</strong></div>
-		
-		<span class="crumbs">
-			
-				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-					<a href="http://vainglorygame.com" class="crumb" rel="up" itemprop="url"><span itemprop="title">Vainglorygame.com</span></a>
-					<span class="arrow"><span></span></span>
-				</span>
-			
-			
-			
-				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-					<a href="http://forums.vainglorygame.com/index.php" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
-					<span class="arrow"><span>&gt;</span></span>
-				</span>
-			
-			
-			
-		</span>
-	</fieldset>
-</nav>
+<div class="body_container">
+
+<div class="page_heading_txt">The Community Forum</div>
+
+<div id="main_container">
+
+<!-- Display forum list -->
+
+<!-- Top Navigation -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+	    <td class="topnav_left_img"></td>
+		<td valign="top" class="topnav_bg_img">
+			<table border="0" cellspacing="0" cellpadding="0" id="topnavTable">
+				<tbody><tr>
+					<td>
+					<table border="0" cellspacing="0" cellpadding="0" id="top_navButtonTable" class="topnav_active">
+						<tbody><tr>
+
+						
+							
+								
+								
+									
+
+<!-- Navigation Link Block -->
+
+
+	
+	<td class="control_panel_img" valign="bottom"></td>
+	<td class="topnav_middle" id="td_tab_cpanel"><a href="/register/register?edit=1&amp;userid=4694398" id="anchor_tab_cpanel">Control Panel</a></td>
+	
+
+
+
+								
+								
+								
+									
+
+<!-- Navigation Link Block -->
+
+
+	
+		<td class="top_nav_divider"></td>
+	
+	<td class="search_img" valign="bottom"></td>
+	<td class="topnav_middle" id="td_tab_search"><a href="/search" id="anchor_tab_search">Search</a></td>
+	
+
+
+
+								
+							
+						
+						
+						
+							
+								
+
+<!-- Navigation Link Block -->
+
+
+	
+		<td class="top_nav_divider"></td>
+	
+	<td class="calendar_img" valign="bottom"></td>
+	<td class="topnav_middle" id="td_tab_calendar"><a href="/calendar" id="anchor_tab_calendar">Calendar</a></td>
+	
+
+
+
+							
+						
+						
+							
+							
+								
+
+<!-- Navigation Link Block -->
+
+
+	
+		<td class="top_nav_divider"></td>
+	
+	<td class="new_post_img" valign="bottom"></td>
+	<td class="topnav_middle" id="td_tab_newpost"><a href="/latest" id="anchor_tab_newpost">Latest Topics</a></td>
+	
+
+
+
+							
+						
+						
+						
+							
+								
+							
+							
+							
+								<td class="top_nav_divider"></td><td class="chat_img" valign="bottom"></td><td class="topnav_middle" id="td_tab_chat">
+									
+										<a href="http://ewefwf.discussionchatroom.com/?access_token=T5ZTbV825sd6hLgmJJpb&amp;rememberMe=1" target="_blank" id="anchor_tab_chat">
+									
+										Chat
+								
+								</a></td>
+							
+						
+						
+
+						
+
+						
+							
+								
+								
+
+<!-- Navigation Link Block -->
+
+
+	
+		<td class="top_nav_divider"></td>
+	
+	<td class="login_img" valign="bottom"></td>
+	<td class="topnav_middle" id="td_tab_logout"><a href="/register/logout?userid=4694398" id="anchor_tab_logout" class="fb_logout">Logout</a></td>
+	
+
+
+
+							
+						
+						</tr>
+					</tbody></table>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td class="topnav_right_img"></td>
+	</tr>
+</tbody></table>
+<!-- End of Top Navigation -->
+
+	
+
+<!-- topNavBar -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" id="login_areaTable">
+	<tbody><tr>
+		<td valign="top"></td>
+		<td valign="top" height="10px"></td>
+		<td align="right" height="10px"></td>
+		<td align="right"></td>
+	</tr>
+	<tr>
+		<td valign="top">&nbsp;</td>
+		<td valign="top" align="left">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td valign="top">
+						<div class="breadcrumbs">
+							
+							
+							
+							
+								
+								
+
+								
+
+								
+									
+										
+										
+											<b>Categories</b>
+										
+									
 						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp; </td>
+				</tr>
+				
+				
+				
+
+				
+				
+				
+				
+
+				
+				
+			</tbody></table>
+		</td>
+		<td align="right" valign="top">
+			<div id="user_navigation">
+			
+				<!-- Login content -->
+				<table border="0" cellspacing="0" cellpadding="0" id="user_login_nav">
+				
+					<tbody><tr>
+						<td align="left" nowrap="" id="reg_link_user">Welcome, <a href="/profile/4694398" class="username usergroup1003707">ewefwf</a></td>
+					</tr>
+				
+					<tr>
+						<td height="6"></td>
+					</tr>
+					<tr>
+						<td valign="top" align="left" nowrap=""><a href="/pm/inbox">Private Messages</a>: <span id="pm_count">0 </span> Unread</td>
+					</tr>
+				
+				</tbody></table>
+				<!-- End of Login content -->
+			
+			</div>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="4"><img src="/clear.gif" width="1" height="10px"></td>
+	</tr>
+	<tr>
+		<td colspan="4" valign="top" class="horizontal_divider"></td>
+	</tr>
+</tbody></table>
+<!-- End of topNavBar -->
+<noscript>
+	&lt;div class="alert alert-danger text-center"&gt;Note: Your browser does not have JavaScript enabled. Many features may not work properly without it. Please enable JavaScript in your browser settings.&lt;/div&gt;
+</noscript>
+
+
+
+<br>
+<br>
+<div class="middle_container">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tbody><tr>
+			<td valign="top">
+				<table border="0" width="100%" cellpadding="0" class="tables">
+					<tbody><tr> 
+						<td class="table_topleft_corner" align="center"></td>
+						<td class="table_top_middle table_header" colspan="10">Category</td>
+						<td class="table_top_middle table_header" align="center" width="1%">Posts</td>
+						<td align="center" class="table_top_middle table_header" width="1%">Topics</td>
+						<td align="left" class="table_top_middle table_header">Last Post</td>
 						
-						
-						
+						<td class="table_topright_corner" width="25"></td>
+					</tr>			
 					
-						<!--[if lt IE 8]>
-							<p class="importantMessage">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome" target="_blank">alternative browser</a>.</p>
-						<![endif]-->
-
-						
-												
-						
-						
-						
-												
-							<!-- h1 title, description -->
-							<div class="titleBar">
-								
-								<h1>Vainglory Community Forums</h1>
-								
-								
-							</div>
-						
-						
-						
-						
-						
-						<!-- main template -->
-						
-
-
-
-
-
-
-	
-
-
-	<ol class="nodeList sectionMain" id="forums">
-	
-		
-
-
-<li class="node category level_1 node_42" id="42">
-
-	<div class="nodeInfo categoryNodeInfo categoryStrip">
-	
-		<div class="categoryText">
-			<h3 class="nodeTitle"><a href="index.php#42">Vainglory Forums</a></h3>
-			
-		</div>
-		
-	</div>
-	
-			
-		<ol class="nodeList">
-			
-
-
-<li class="node forum level_2  node_3">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>456</dd><dt>Discussions</dt></dl>
-				<dl><dd>17,498</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/3/" data-description="">Announcements &amp; Status</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-3">When there are known issues or cool new updates, we’ll post the latest here.</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_149">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/149/" class="menuRow">Archived Announcements</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1072365/" title="Squid Ink Topic Suggestions">Squid Ink Topic Suggestions</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/72717/" class="username" dir="auto">Kareem Midani</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475415684" data-diff="185256" data-datestring="Oct 2, 2016" data-timestring="2:41 PM" title="Oct 2, 2016 at 2:41 PM">Sunday at 2:41 PM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/3/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_68">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>448</dd><dt>Discussions</dt></dl>
-				<dl><dd>6,237</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/68/" data-description="">Contests, Events &amp; eSports</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-68">Information about player organised Tournaments and other Events for Vainglory can be found here. This is also the place to discuss the Official Vainglory Sanctioned eSports Events and Community run Tournaments.</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074728/" title="Why Evil8 is the perfect name for Vainglory Esports.">Why Evil8 is the perfect name for Vainglory Esports.</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/12566/" class="username" dir="auto">Solux_ERA</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475563505" data-diff="37435" data-datestring="Oct 4, 2016" data-timestring="7:45 AM" title="Oct 4, 2016 at 7:45 AM">Today at 7:45 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/68/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_8">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>29,727</dd><dt>Discussions</dt></dl>
-				<dl><dd>542,636</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/8/" data-description="">General</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-8">New to Vainglory? Hop in and introduce yourself to the community and find like minded players to queue with on the go. Find tips&amp;tricks here! Discuss battle strategies, ask questions and discuss the unclassifiable.</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_175">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/175/" class="menuRow">Introduce Yourself</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_183">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/183/" class="menuRow">Questions</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_176">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/176/" class="menuRow">Looking For Quick Teammates</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_182">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/182/" class="menuRow">Tips &amp; Tricks</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_5">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/5/" class="menuRow">Builds &amp; Guides</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_94">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/94/" class="menuRow">Theorycrafting and Analysis</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_152">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/152/" class="menuRow">Skins &amp; Cards</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075273/" title="Mega Thread About Hero Popularity On Different Skill Tiers">Mega Thread About Hero Popularity On Different Skill Tiers</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/60043/" class="username" dir="auto">Hood97</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475600594" data-diff="346" data-datestring="Oct 4, 2016" data-timestring="6:03 PM" title="Oct 4, 2016 at 6:03 PM">5 minutes ago</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/8/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_48">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>1,330</dd><dt>Discussions</dt></dl>
-				<dl><dd>9,312</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/48/" data-description="">Videos &amp; Livestreams</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-48">Post your VG videos and livestream links, and find great stuff to watch!</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074909/" title="ICE giveaway">ICE giveaway</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/73114/" class="username" dir="auto">OverKilledBro</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475577568" data-diff="23372" data-datestring="Oct 4, 2016" data-timestring="11:39 AM" title="Oct 4, 2016 at 11:39 AM">Today at 11:39 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/48/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_54">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>7,801</dd><dt>Discussions</dt></dl>
-				<dl><dd>76,890</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/54/" data-description="">Feedback &amp; Suggestions</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-54">Have feedback or suggestions for Vainglory? Post it here!</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_64">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/64/" class="menuRow">Heroes</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_65">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/65/" class="menuRow">Matchmaking</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_66">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/66/" class="menuRow">Friends &amp; Chat</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_67">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/67/" class="menuRow">UI &amp; Graphics</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075278/" title="Changing maps and gameplay proposal: make it more competitive!">Changing maps and gameplay proposal: make it more competitive!</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/73114/" class="username" dir="auto">OverKilledBro</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475600874" data-diff="66" data-datestring="Oct 4, 2016" data-timestring="6:07 PM" title="Oct 4, 2016 at 6:07 PM">1 minute ago</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/54/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_51">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>7,497</dd><dt>Discussions</dt></dl>
-				<dl><dd>56,125</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/51/" data-description="">Guilds &amp; Teams</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-51">Create your Guild/Team or join a Guild/Team, and interact with members.</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node category level-n node_225">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?categories/225/" class="menuRow">Guilds</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_79">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/79/" class="menuRow">North America</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_80">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/80/" class="menuRow">Europe</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_81">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/81/" class="menuRow">South East Asia</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_242">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/242/" class="menuRow">East Asia</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_82">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/82/" class="menuRow">Looking for a Guild</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_226">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/226/" class="menuRow">Teams</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_227">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/227/" class="menuRow">North America</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_228">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/228/" class="menuRow">South East Asia</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_229">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/229/" class="menuRow">Europe</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_243">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/243/" class="menuRow">East Asia</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_230">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/230/" class="menuRow">Looking for a Team</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075257/" title="Singapore Guild HAW EMSTERDAMN recruitment!">Singapore Guild HAW EMSTERDAMN recruitment!</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/73132/" class="username" dir="auto">Scarfac3</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475599337" data-diff="1603" data-datestring="Oct 4, 2016" data-timestring="5:42 PM" title="Oct 4, 2016 at 5:42 PM">26 minutes ago</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/51/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_83">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>1,562</dd><dt>Discussions</dt></dl>
-				<dl><dd>27,814</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/83/" data-description="">Fan Art</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-83">Post and discuss the amazing Fan Creations here.</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075276/" title="This is a pic of vox saying sup">This is a pic of vox saying sup</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/71892/" class="username" dir="auto">Ember_Hunter</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475600702" data-diff="238" data-datestring="Oct 4, 2016" data-timestring="6:05 PM" title="Oct 4, 2016 at 6:05 PM">3 minutes ago</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/83/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_6">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>798</dd><dt>Discussions</dt></dl>
-				<dl><dd>15,695</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/6/" data-description="">Vainglory Lore</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-6">Into stories about the heroes and world of Vainglory? Find them all here and tell us what you think ...</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_44">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/44/" class="menuRow">Fan Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_58">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/58/" class="menuRow">Ardan Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_85">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/85/" class="menuRow">Celeste Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_115">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/115/" class="menuRow">Vox Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_140">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/140/" class="menuRow">Adagio Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_179">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/179/" class="menuRow">Rona Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_46">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/46/" class="menuRow">Skaarf Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_157">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/157/" class="menuRow">Fortress Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_45">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/45/" class="menuRow">Taka Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_39">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/39/" class="menuRow">Krul Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_36">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/36/" class="menuRow">Joule Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_37">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/37/" class="menuRow">SAW Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_26">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/26/" class="menuRow">Petal Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_31">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/31/" class="menuRow">Glaive Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_35">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/35/" class="menuRow">Koshka Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_33">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/33/" class="menuRow">Catherine Lore</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_38">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/38/" class="menuRow">Ringo Lore</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074833/" title="The Gythian Civil War RP - 001 Playground Thread">The Gythian Civil War RP - 001 Playground Thread</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/53127/" class="username" dir="auto">slashingwinds</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475571763" data-diff="29177" data-datestring="Oct 4, 2016" data-timestring="10:02 AM" title="Oct 4, 2016 at 10:02 AM">Today at 10:02 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/6/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_9">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>7,597</dd><dt>Discussions</dt></dl>
-				<dl><dd>43,152</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/9/" data-description="">Bug Reports &amp; Help</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-9">Having an issue? Make sure to check out the sub-forum for Known Issues before posting. Remember to post as much detail as possible.</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_53">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/53/" class="menuRow">Known Issues</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075203/" title="Animation in Area Without Vision">Animation in Area Without Vision</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/22621/" class="username" dir="auto">BlackImpulse</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475596414" data-diff="4526" data-datestring="Oct 4, 2016" data-timestring="4:53 PM" title="Oct 4, 2016 at 4:53 PM">Today at 4:53 PM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/9/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_22">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>670</dd><dt>Discussions</dt></dl>
-				<dl><dd>13,714</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/22/" data-description="">Forum Stuff</a></h3>
-
-			
-				<blockquote class="nodeDescription muted baseHtml" id="nodeDescription-22">Questions about how to use the forum features? Then this is the place!</blockquote>
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_189">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/189/" class="menuRow">Signature Creations</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074643/" title="What is the requirements to get ourselves a sub forum?">What is the requirements to get ourselves a sub forum?</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/65084/" class="username" dir="auto">Omegatite</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475557327" data-diff="43613" data-datestring="Oct 4, 2016" data-timestring="6:02 AM" title="Oct 4, 2016 at 6:02 AM">Today at 6:02 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/22/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-		</ol>
-	
-	
-	<span class="tlc"></span>
-	<span class="trc"></span>
-	<span class="blc"></span>
-	<span class="brc"></span>
-</li>
-
-
-<li class="node category level_1 node_40" id="40">
-
-	<div class="nodeInfo categoryNodeInfo categoryStrip">
-	
-		<div class="categoryText">
-			<h3 class="nodeTitle"><a href="index.php#40">Other Languages</a></h3>
-			
-		</div>
-		
-	</div>
-	
-			
-		<ol class="nodeList">
-			
-
-
-<li class="node forum level_2  node_41">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>469</dd><dt>Discussions</dt></dl>
-				<dl><dd>2,805</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/41/" data-description="">Русский</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_88">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/88/" class="menuRow">Новости</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_89">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/89/" class="menuRow">Помощь</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_90">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/90/" class="menuRow">Поиск друзей</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_91">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/91/" class="menuRow">Полезная информация</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_92">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/92/" class="menuRow">Отзывы и предложения</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_93">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/93/" class="menuRow">Разное</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_185">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/185/" class="menuRow">Истории героев</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_203">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/203/" class="menuRow">Фан-арт</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074986/" title="Сетевое кеширование">Сетевое кеширование</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/21468/" class="username" dir="auto">fatalpulse</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475582995" data-diff="17945" data-datestring="Oct 4, 2016" data-timestring="1:09 PM" title="Oct 4, 2016 at 1:09 PM">Today at 1:09 PM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/41/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_47">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>734</dd><dt>Discussions</dt></dl>
-				<dl><dd>5,198</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/47/" data-description="">Français</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_170">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/170/" class="menuRow">Annonces officielles</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_197">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/197/" class="menuRow">Annonces archivées</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_171">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/171/" class="menuRow">Je cherche une équipe</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_172">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/172/" class="menuRow">Je présente mon équipe</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_169">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/169/" class="menuRow">J'ai trouvé un BUG</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_177">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/177/" class="menuRow">Videos, Guides et Sites de fans</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_195">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/195/" class="menuRow">Histoires des héros</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074452/" title="GUILD NA recruitement">GUILD NA recruitement</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/52301/" class="username" dir="auto">SillySillva</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475548228" data-diff="52712" data-datestring="Oct 4, 2016" data-timestring="3:30 AM" title="Oct 4, 2016 at 3:30 AM">Today at 3:30 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/47/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_49">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>548</dd><dt>Discussions</dt></dl>
-				<dl><dd>3,842</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/49/" data-description="">Deutsch</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_178">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/178/" class="menuRow">Neuigkeiten</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_222">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/222/" class="menuRow">Archiv</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_223">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/223/" class="menuRow">Allgemeines</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_70">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/70/" class="menuRow">Spielersuche</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_71">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/71/" class="menuRow">Hilfestellung</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_72">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/72/" class="menuRow">Feedback &amp; Vorschläge</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_224">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/224/" class="menuRow">Streamer und YouTuber</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074306/" title="Meet Up Belohnungen">Meet Up Belohnungen</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/32614/" class="username" dir="auto">Minh</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475539420" data-diff="61520" data-datestring="Oct 4, 2016" data-timestring="1:03 AM" title="Oct 4, 2016 at 1:03 AM">Today at 1:03 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/49/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_50">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>1,166</dd><dt>Discussions</dt></dl>
-				<dl><dd>5,016</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/50/" data-description="">Español</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_95">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/95/" class="menuRow">Noticias y estatus</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_200">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/200/" class="menuRow">Archivo</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_96">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/96/" class="menuRow">Discusión general</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_99">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/99/" class="menuRow">Vídeos y retransmisiones en directo</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_98">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/98/" class="menuRow">Conoce a otros jugadores</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_100">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/100/" class="menuRow">Sala de los clanes</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_101">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/101/" class="menuRow">Europa</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_102">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/102/" class="menuRow">América del Sur</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_103">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/103/" class="menuRow">América del Norte</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_202">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/202/" class="menuRow">Torneos</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_97">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/97/" class="menuRow">Sugerencias y comentarios</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_142">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/142/" class="menuRow">Trasfondo de personajes</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_143">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/143/" class="menuRow">Koshka</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_144">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/144/" class="menuRow">Glaive</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_145">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/145/" class="menuRow">Petal</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_146">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/146/" class="menuRow">SAW</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_158">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/158/" class="menuRow">Fortress</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_192">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/192/" class="menuRow">Catherine</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_193">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/193/" class="menuRow">Skye</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_194">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/194/" class="menuRow">Joule</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_104">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/104/" class="menuRow">Otros temas</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_199">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/199/" class="menuRow">Bugs y problemas</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_209">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/209/" class="menuRow">Tutoriales</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_210">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/210/" class="menuRow">Conceptos Básicos</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_211">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/211/" class="menuRow">Juego en equipo</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_212">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/212/" class="menuRow">Builds</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075157/" title="No me carga cuando quiero iniciar paetida">No me carga cuando quiero iniciar paetida</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/73130/" class="username" dir="auto">Ivan Alejandro Ocon</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475593880" data-diff="7060" data-datestring="Oct 4, 2016" data-timestring="4:11 PM" title="Oct 4, 2016 at 4:11 PM">Today at 4:11 PM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/50/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_55">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>589</dd><dt>Discussions</dt></dl>
-				<dl><dd>3,454</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/55/" data-description="">Italiano</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_75">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/75/" class="menuRow">Info utili</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_106">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/106/" class="menuRow">Annunci e Stato del Servizio</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_107">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/107/" class="menuRow">Generale</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_190">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/190/" class="menuRow">Eventi e Tornei</a></h4>
-	</div>
-	
-		<ol>
-			
-				<li class="node forum level-n node_207">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/207/" class="menuRow">Scontri Vaingloriosi</a></h4>
-	</div>
-	
-</li>
-			
-		</ol>
-	
-</li>
-			
-				<li class="node forum level-n node_108">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/108/" class="menuRow">Idee e Suggerimenti</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_76">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/76/" class="menuRow">Bug Report e Supporto</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_201">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/201/" class="menuRow">Gilde</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_186">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/186/" class="menuRow">Video e Guide</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_181">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/181/" class="menuRow">Storie degli eroi</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_77">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/77/" class="menuRow">Off-Topic</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074718/" title="SEI ALLA RICERCA DI UNA GILDA ITALIANA? ENTRA NEI ''DEVIL'S FACE'' ORA!">SEI ALLA RICERCA DI UNA GILDA ITALIANA? ENTRA NEI ''DEVIL'S FACE'' ORA!</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/49477/" class="username" dir="auto">Robiperez</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475562692" data-diff="38248" data-datestring="Oct 4, 2016" data-timestring="7:31 AM" title="Oct 4, 2016 at 7:31 AM">Today at 7:31 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/55/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_116">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>1,072</dd><dt>Discussions</dt></dl>
-				<dl><dd>6,565</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/116/" data-description="">Türkçe</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_159">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/159/" class="menuRow">Haberler</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_160">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/160/" class="menuRow">Yardım</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_204">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/204/" class="menuRow">Yarışmalar ve Etkinlikler</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_161">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/161/" class="menuRow">Arkadaş Arama</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_162">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/162/" class="menuRow">Yararlı bilgiler</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_163">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/163/" class="menuRow">Yorumlar ve Öneriler</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_164">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/164/" class="menuRow">Diğer &amp; Konu dışı</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075244/" title="Eşleştirme sistemi">Eşleştirme sistemi</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/71012/" class="username" dir="auto">ARTERTON</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475598428" data-diff="2512" data-datestring="Oct 4, 2016" data-timestring="5:27 PM" title="Oct 4, 2016 at 5:27 PM">41 minutes ago</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/116/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_86">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>366</dd><dt>Discussions</dt></dl>
-				<dl><dd>1,531</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/86/" data-description="">Português</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_119">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/119/" class="menuRow">Bem vindo!</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_120">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/120/" class="menuRow">Updates e Anuncios</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_121">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/121/" class="menuRow">Ideias e Sugestões</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_122">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/122/" class="menuRow">Bugs en Glitches</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_138">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/138/" class="menuRow">Perguntas</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_139">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/139/" class="menuRow">Procuro Aliados</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1073709/" title="Grupo no Whatsapp">Grupo no Whatsapp</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/72902/" class="username" dir="auto">DkEnki</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475497116" data-diff="103824" data-datestring="Oct 3, 2016" data-timestring="1:18 PM" title="Oct 3, 2016 at 1:18 PM">Yesterday at 1:18 PM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/86/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_87">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>46</dd><dt>Discussions</dt></dl>
-				<dl><dd>475</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/87/" data-description="">Nederlands</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_109">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/109/" class="menuRow">Welkom!</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_110">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/110/" class="menuRow">Mededelingen en Updates</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_111">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/111/" class="menuRow">Algemeen</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_112">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/112/" class="menuRow">De Zitkamer</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_113">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/113/" class="menuRow">Ideeën en Suggesties</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_114">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/114/" class="menuRow">Bugs en Glitches</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_148">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/148/" class="menuRow">Gildes</a></h4>
-	</div>
-	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1050154/" title="Community Manager for Dutch?">Community Manager for Dutch?</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/3195/" class="username" dir="auto">Chriszle</a>,</span>
-					<span class="DateTime muted lastThreadDate" data-latest="Latest: " title="Sep 16, 2016 at 3:28 PM">Sep 16, 2016</span>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/87/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
-
-
-<li class="node forum level_2  node_78">
-
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>11</dd><dt>Discussions</dt></dl>
-				<dl><dd>144</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/78/" data-description="">Skandinavisk / Svenska / Dansk / Norsk</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
+	
+	
 		
 		
-
-		<div class="nodeLastPost secondaryContent">
 			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1034388/" title="Anyone here SA+">Anyone here SA+</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/7738/" class="username" dir="auto">Veracity</a>,</span>
-					<span class="DateTime muted lastThreadDate" data-latest="Latest: " title="Sep 6, 2016 at 11:30 AM">Sep 6, 2016</span>
-				</span>
 			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/78/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
+			<!-- Display forum row-->
+<tr class="table_row">
 
 
-<li class="node forum level_2  node_247">
-
+	<td align="center" valign="middle">
+		
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>7</dd><dt>Discussions</dt></dl>
-				<dl><dd>25</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/247/" data-description="">বাংলা</a></h3>
+		
+			<!-- Display icon -->
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_248">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/248/" class="menuRow">সাধারণ আলোচনা</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
 		
+			<span class="no_new_post_icon" title="No unread posts"></span>
 		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1075264/" title="Just to notify my Bangla Bros">Just to notify my Bangla Bros</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/45533/" class="username" dir="auto">cloudburst27</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475599704" data-diff="1236" data-datestring="Oct 4, 2016" data-timestring="5:48 PM" title="Oct 4, 2016 at 5:48 PM">20 minutes ago</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/247/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
+	
+	
+<!-- End icon -->
 		
-	</div>
-
 	
-
-</li>
 
+	</td>
+<!-- Forum and subforum lisitng -->
+	 
 
-<li class="node forum level_2  node_84">
+		
 
-	
 
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
 
-		<span class="nodeIcon" title="Unread messages"></span>
 
-		<div class="nodeText">
 
-			<div class="idxStats">
-				<dl><dd>19</dd><dt>Discussions</dt></dl>
-				<dl><dd>181</dd><dt>Messages</dt></dl>
-			</div>
 
-			<h3 class="nodeTitle"><a href="index.php?forums/84/" data-description="">Ελληνικά</a></h3>
 
-			
+	<td colspan="10">
+	<a href="/?forum=553868" class="forum_title">News</a>
+	
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
+	
+	
+<!-- For forumlisting page -->
+	
 
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_153">
-	<div>
-		<h4 class="nodeTitle"><a href="index.php?forums/153/" class="menuRow">Γενικά Για Το Παιχνίδι</a></h4>
-	</div>
 	
-</li>
-			
-				<li class="node forum level-n node_208">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/208/" class="menuRow">Γενικα Για Τους Ηρωες</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
 		
+			<br>
+			<span class="forum_desc">
+				Community News &amp; Announcements
+			</span>
+		 
+
 		
+		</td>	
 		
-
-		<div class="nodeLastPost secondaryContent">
 			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/943636/" title="Σε αναζήτηση Ελληνικού guild">Σε αναζήτηση Ελληνικού guild</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/59834/" class="username" dir="auto">EpicMess</a>,</span>
-					<span class="DateTime muted lastThreadDate" data-latest="Latest: " title="Jul 13, 2016 at 9:40 PM">Jul 13, 2016</span>
-				</span>
 			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/84/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td width="20%" colspan="2">
+			
 
-	
 
-</li>
 
 
-<li class="node forum level_2  node_239">
 
 	
+	
+		No posts
+	
 
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
 
-		<span class="nodeIcon" title="Unread messages"></span>
+		</td>			
+	
+		
+	
+	
+	
 
-		<div class="nodeText">
 
-			<div class="idxStats">
-				<dl><dd>8</dd><dt>Discussions</dt></dl>
-				<dl><dd>22</dd><dt>Messages</dt></dl>
-			</div>
+<!-- End forumlisting page -->
 
-			<h3 class="nodeTitle"><a href="index.php?forums/239/" data-description="">Melayu</a></h3>
+<!-- For subscribed forums page -->
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
+<!-- End subscribed forums page -->
 
-		
-		
-		
 
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1073824/" title="GROUP WHATSAPP UNTUK VAINGLORY">GROUP WHATSAPP UNTUK VAINGLORY</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/66099/" class="username" dir="auto">helmi nuri</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475503969" data-diff="96971" data-datestring="Oct 3, 2016" data-timestring="3:12 PM" title="Oct 3, 2016 at 3:12 PM">Yesterday at 3:12 PM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/239/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
 
-	
 
-</li>
 
 
-<li class="node forum level_2  node_240">
 
-	
 
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
 
-		<span class="nodeIcon" title="Unread messages"></span>
 
-		<div class="nodeText">
+	
 
-			<div class="idxStats">
-				<dl><dd>13</dd><dt>Discussions</dt></dl>
-				<dl><dd>77</dd><dt>Messages</dt></dl>
-			</div>
 
-			<h3 class="nodeTitle"><a href="index.php?forums/240/" data-description="">Tagalog</a></h3>
 
-			
+<!-- End forum and subforum lisitng -->
+</tr>
+<!-- End forum row -->
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
+
+
 
 		
+	
 		
 		
-
-		<div class="nodeLastPost secondaryContent">
 			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1072016/" title="Need guild (Noob here)">Need guild (Noob here)</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/67835/" class="username" dir="auto">MoJay</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475384396" data-diff="216544" data-datestring="Oct 2, 2016" data-timestring="5:59 AM" title="Oct 2, 2016 at 5:59 AM">Sunday at 5:59 AM</abbr>
-				</span>
 			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/240/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
-
-</li>
+			<!-- Display forum row-->
+<tr class="alternate_table_row">
 
 
-<li class="node forum level_2  node_205">
-
+	<td align="center" valign="middle">
+		
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>30</dd><dt>Discussions</dt></dl>
-				<dl><dd>154</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/205/" data-description="">Polski</a></h3>
+		
+			<!-- Display icon -->
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
-		
+	
 		
+			<span class="no_new_post_icon" title="No unread posts"></span>
 		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1072114/" title="Ile gier trzeba zagrać by mieć następny tier?">Ile gier trzeba zagrać by mieć następny tier?</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/72993/" class="username" dir="auto">popicelol5</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475392168" data-diff="208772" data-datestring="Oct 2, 2016" data-timestring="8:09 AM" title="Oct 2, 2016 at 8:09 AM">Sunday at 8:09 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/205/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
+	
+	
+<!-- End icon -->
 		
-	</div>
-
 	
-
-</li>
 
+	</td>
+<!-- Forum and subforum lisitng -->
+	 
 
-<li class="node forum level_2  node_56">
-
-	
+		
 
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
 
-		<span class="nodeIcon" title="Unread messages"></span>
 
-		<div class="nodeText">
 
-			<div class="idxStats">
-				<dl><dd>195</dd><dt>Discussions</dt></dl>
-				<dl><dd>582</dd><dt>Messages</dt></dl>
-			</div>
 
-			<h3 class="nodeTitle"><a href="index.php?forums/56/" data-description="">日本語</a></h3>
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
+	<td colspan="10">
+	<a href="/?forum=553869" class="forum_title">General</a>
+	
 
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_215">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/215/" class="menuRow">公式発表</a></h4>
-	</div>
 	
-</li>
-			
-				<li class="node forum level-n node_216">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/216/" class="menuRow">ギルド・チームを探す</a></h4>
-	</div>
 	
-</li>
-			
-				<li class="node forum level-n node_217">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/217/" class="menuRow">ヒーローたちの物語</a></h4>
-	</div>
+<!-- For forumlisting page -->
 	
-</li>
-			
-				<li class="node forum level-n node_218">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/218/" class="menuRow">フィードバック</a></h4>
-	</div>
+
 	
-</li>
-			
-				<li class="node forum level-n node_219">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/219/" class="menuRow">バグ報告</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
 		
+			<br>
+			<span class="forum_desc">
+				General Discussion
+			</span>
+		 
+
 		
+		</td>	
 		
-
-		<div class="nodeLastPost secondaryContent">
 			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1069850/" title="スカイの物語３：バロンのために">スカイの物語３：バロンのために</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/70679/" class="username" dir="auto">QuaCauInoxTinTa</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475220161" data-diff="380779" data-datestring="Sep 30, 2016" data-timestring="8:22 AM" title="Sep 30, 2016 at 8:22 AM">Friday at 8:22 AM</abbr>
-				</span>
 			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/56/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td width="20%" colspan="2">
+			
 
-	
 
-</li>
 
 
-<li class="node forum level_2  node_57">
 
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>310</dd><dt>Discussions</dt></dl>
-				<dl><dd>648</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/57/" data-description="">한국어</a></h3>
-
-			
+	
+		No posts
+	
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
+		</td>			
+	
 		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_167">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/167/" class="menuRow">개발진 공지</a></h4>
-	</div>
 	
-</li>
-			
-				<li class="node forum level-n node_168">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/168/" class="menuRow">자유게시판</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1049811/" title="한정판 스킨에 대한 문의">한정판 스킨에 대한 문의</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/32045/" class="username" dir="auto">J.H Kim</a>,</span>
-					<span class="DateTime muted lastThreadDate" data-latest="Latest: " title="Sep 16, 2016 at 10:37 AM">Sep 16, 2016</span>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/57/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
 	
-
-</li>
-
-
-<li class="node forum level_2  node_118">
 
-	
 
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
+<!-- End forumlisting page -->
 
-		<span class="nodeIcon" title="Unread messages"></span>
+<!-- For subscribed forums page -->
 
-		<div class="nodeText">
 
-			<div class="idxStats">
-				<dl><dd>279</dd><dt>Discussions</dt></dl>
-				<dl><dd>491</dd><dt>Messages</dt></dl>
-			</div>
+<!-- End subscribed forums page -->
 
-			<h3 class="nodeTitle"><a href="index.php?forums/118/" data-description="">繁體中文</a></h3>
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
-		
-		
-		
 
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1066811/" title="每週免費英雄 (9/27)：免費薩米爾週！">每週免費英雄 (9/27)：免費薩米爾週！</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/39556/" class="username" dir="auto">shookdown</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475035405" data-diff="565535" data-datestring="Sep 28, 2016" data-timestring="5:03 AM" title="Sep 28, 2016 at 5:03 AM">Wednesday at 5:03 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/118/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
 
-	
 
-</li>
 
 
-<li class="node forum level_2  node_117">
 
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
 
-		<span class="nodeIcon" title="Unread messages"></span>
 
-		<div class="nodeText">
 
-			<div class="idxStats">
-				<dl><dd>170</dd><dt>Discussions</dt></dl>
-				<dl><dd>493</dd><dt>Messages</dt></dl>
-			</div>
+<!-- End forum and subforum lisitng -->
+</tr>
+<!-- End forum row -->
 
-			<h3 class="nodeTitle"><a href="index.php?forums/117/" data-description="">简体中文</a></h3>
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
 		
+	
 		
 		
-
-		<div class="nodeLastPost secondaryContent">
 			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1074984/" title="回国学历认证|UW学位证书Q|微158167775办理温尼伯大学毕业证成绩单学历学位认证University of Winnipeg">回国学历认证|UW学位证书Q|微158167775办理温尼伯大学毕业证成绩单学历学位认证University of Winnipeg</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/73118/" class="username" dir="auto">sdfsdfw01</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475582935" data-diff="18005" data-datestring="Oct 4, 2016" data-timestring="1:08 PM" title="Oct 4, 2016 at 1:08 PM">Today at 1:08 PM</abbr>
-				</span>
 			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/117/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
-	
+			<!-- Display forum row-->
+<tr class="table_row">
 
-</li>
 
-
-<li class="node forum level_2  node_234">
-
+	<td align="center" valign="middle">
+		
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>4</dd><dt>Discussions</dt></dl>
-				<dl><dd>15</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/234/" data-description="">កម្ពុជា</a></h3>
+		
+			<!-- Display icon -->
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_235">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/235/" class="menuRow">ការប្រកាសផ្សេងៗ និង ស្ថានភាព</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
-		
 		
+			<span class="no_new_post_icon" title="No unread posts"></span>
 		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1056186/" title="ស្ថានការណ៍និងព័ត៌មានលំអិតអំពី បញ្ហានៅសេវើ (SEA)">ស្ថានការណ៍និងព័ត៌មានលំអិតអំពី បញ្ហានៅសេវើ (SEA)</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/72157/" class="username" dir="auto">IGN (MrRNa)</a>,</span>
-					<span class="DateTime muted lastThreadDate" data-latest="Latest: " title="Sep 20, 2016 at 2:47 AM">Sep 20, 2016</span>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/234/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
+	
+	
+<!-- End icon -->
 		
-	</div>
-
 	
-
-</li>
-
 
-<li class="node forum level_2  node_220">
+	</td>
+<!-- Forum and subforum lisitng -->
+	 
 
-	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
+		
 
-		<span class="nodeIcon" title="Unread messages"></span>
 
-		<div class="nodeText">
 
-			<div class="idxStats">
-				<dl><dd>64</dd><dt>Discussions</dt></dl>
-				<dl><dd>91</dd><dt>Messages</dt></dl>
-			</div>
 
-			<h3 class="nodeTitle"><a href="index.php?forums/220/" data-description="">ประเทศไทย</a></h3>
 
-			
 
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
 
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_221">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/221/" class="menuRow">ประกาศและสถานะ</a></h4>
-	</div>
+	<td colspan="10">
+	<a href="/?forum=553870" class="forum_title">Moderators Only</a>
 	
-</li>
-			
-				<li class="node forum level-n node_231">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/231/" class="menuRow">กิจกรรมและการแข่งขัน</a></h4>
-	</div>
-	
-</li>
-			
-				<li class="node forum level-n node_232">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/232/" class="menuRow">เนื้อเรื่องตัวละคร</a></h4>
-	</div>
+
 	
-</li>
-			
-				<li class="node forum level-n node_233">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/233/" class="menuRow">เรื่องทั่วไป</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
-		
-		
-		
-
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1062183/" title="Baron แบบฉบับภาษาไทย By Dion_Mokung">Baron แบบฉบับภาษาไทย By Dion_Mokung</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/57062/" class="username" dir="auto">Mokung</a>,</span>
-					<span class="DateTime muted lastThreadDate" data-latest="Latest: " title="Sep 24, 2016 at 12:14 PM">Sep 24, 2016</span>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/220/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
-
+<!-- For forumlisting page -->
 	
-
-</li>
-
 
-<li class="node forum level_2  node_236">
-
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>40</dd><dt>Discussions</dt></dl>
-				<dl><dd>209</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/236/" data-description="">Bahasa Indonesia</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_237">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/237/" class="menuRow">Pengumuman dan Status</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
 		
+			<br>
+			<span class="forum_desc">
+				A private discussion area only viewable by moderators.
+			</span>
+		 
+
 		
+		</td>	
 		
-
-		<div class="nodeLastPost secondaryContent">
 			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1070300/" title="&quot;Shining Blue Missile&quot; Panduan Bermain Baron CP by Axelrose">"Shining Blue Missile" Panduan Bermain Baron CP by Axelrose</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/72885/" class="username" dir="auto">Axelrose</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475251917" data-diff="349023" data-datestring="Sep 30, 2016" data-timestring="5:11 PM" title="Sep 30, 2016 at 5:11 PM">Friday at 5:11 PM</abbr>
-				</span>
 			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/236/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td width="20%" colspan="2">
+			
 
-	
 
-</li>
 
 
-<li class="node forum level_2  node_213">
 
 	
-
-	<div class="nodeInfo forumNodeInfo primaryContent unread">
-
-		<span class="nodeIcon" title="Unread messages"></span>
-
-		<div class="nodeText">
-
-			<div class="idxStats">
-				<dl><dd>42</dd><dt>Discussions</dt></dl>
-				<dl><dd>78</dd><dt>Messages</dt></dl>
-			</div>
-
-			<h3 class="nodeTitle"><a href="index.php?forums/213/" data-description="">Tiếng Việt</a></h3>
-
-			
-
-			<div class="nodeStats pairsInline">
-				
-			</div>
-			
-			
-		</div>
-
-		
-			<ol class="subForumList">
-			
-				<li class="node forum level-n node_214">
-	<div class="unread">
-		<h4 class="nodeTitle"><a href="index.php?forums/214/" class="menuRow">Thông báo &amp; Trạng thái</a></h4>
-	</div>
 	
-</li>
-			
-			</ol>
-		
-		
-		
+		No posts
+	
 
-		<div class="nodeLastPost secondaryContent">
-			
-				<span class="lastThreadTitle"><span>Latest:</span> <a href="index.php?posts/1073438/" title="[Truyền thuyết về Glaive] Glaive, Tộc Grangor">[Truyền thuyết về Glaive] Glaive, Tộc Grangor</a></span>
-				<span class="lastThreadMeta">
-					<span class="lastThreadUser"><a href="index.php?members/73031/" class="username" dir="auto">hoanguyen99</a>,</span>
-					<abbr class="DateTime muted lastThreadDate" data-latest="Latest: " data-time="1475474698" data-diff="126242" data-datestring="Oct 3, 2016" data-timestring="7:04 AM" title="Oct 3, 2016 at 7:04 AM">Yesterday at 7:04 AM</abbr>
-				</span>
-			
-		</div>
-
-		<div class="nodeControls">
-			<a href="index.php?forums/213/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
-		</div>
-		
-	</div>
 
+		</td>			
 	
-
-</li>
-		</ol>
+		
 	
 	
-	<span class="tlc"></span>
-	<span class="trc"></span>
-	<span class="blc"></span>
-	<span class="brc"></span>
-</li>
 	
-	</ol>
 
 
+<!-- End forumlisting page -->
 
+<!-- For subscribed forums page -->
 
 
+<!-- End subscribed forums page -->
 
 
 
@@ -2902,823 +620,180 @@
 
 
 
+	
 
 
 
+<!-- End forum and subforum lisitng -->
+</tr>
+<!-- End forum row -->
 
 
 
 
+		
 	
 
+					</tbody>
+				</table>
+				</td></tr><tr>
+					<td style="padding-top:4px;">
 						
 						
+							<a href="/?action=markread" title="Mark all categories as read" class="mark_forums_read_icon"><span class="alt">Mark All Categories Read</span></a>
 						
-						
-							<!-- login form, to be moved to the upper drop-down -->
-							
+					</td>
+				</tr>
+			
+		
+	</tbody></table>
+		<br>
+		<br>
+		<table class="tables" width="100%" border="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="table_topleft_corner"></td>
+					<td class="table_top_middle table_header">What's Going On</td>
+					<td class="table_topright_corner" width="25"></td>
+				</tr>
+			</tbody>				
+		
+		
+		
+			<!-- List Currently Active Users -->
 
 
+	<tbody id="collapsible_header_online_userlist" class="sub_heading_row collapsible">
+		<tr>
+			<td colspan="3" style="border-top:none;">
+				<a style="float: right;padding:0px 4px 0px 0px;text-decoration:none" onclick="return toggle_collapse('online_userlist','collapse','expand')" href="/">
+					<span id="collapsible_img_icon_online_userlist" class="collapse" border="0" title="Collapse">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				</a>
+				Currently Active Users
+			</td>
+		</tr>
+	</tbody>
 
-
-
-
-
-
-						
-						
-					</div>
-				</div>
+<tbody id="collapsible_body_online_userlist">
+	<tr class="table_row">
+		<td colspan="3" style="border-top:none;">
+			
+			
+				There are currently <a href="/register/members?list=members">
+				3
+				users online:</a>
+				1
+				member,
+				2
+				guests <br>
 				
-				<!-- sidebar -->
-				<aside>
-					<div class="sidebar">
-						
-						
-						
+				
+					<a href="/profile/4694398" class="username usergroup1003707">ewefwf</a>  
+					<br>
+				
+			
+			
+		</td>
+	</tr>
+</tbody>
+  
+		
+		
+		
+		
+		
+			<!-- Display Forum Statistics -->
 
-<div class="section loginButton">		
-	<div class="secondaryContent">
-		<label for="LoginControl" id="SignupButton"><a href="index.php?login/" class="inner">Log in or Sign up</a></label>
-	</div>
+
+<tbody id="collapsible_header_statistics_table" class="sub_heading_row collapsible">
+	<tr>
+		<td colspan="3" style="border-top:none;">
+			<a style="float: right;padding:0px 4px 0px 0px;text-decoration:none" onclick="return toggle_collapse('statistics_table','collapse','expand')" href="/">
+				<span id="collapsible_img_icon_statistics_table" class="collapse" border="0" title="Collapse">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</a> 
+			Forum Statistics
+		</td>
+	</tr>
+</tbody>
+<tbody id="collapsible_body_statistics_table">
+	<tr class="table_row">
+		<td colspan="3">
+		Topics: 0, Posts: 0
+		
+			, Members: 1 - <a href="/register/members" title="View all registered members">Members List</a>
+		
+		<br>
+		
+			<span id="txtNewestMember">Please welcome our newest member,
+				<a href="/profile/4694398" class="username usergroup1003707"> ewefwf</a>
+			</span>
+		
+		</td>
+	</tr>
+</tbody>
+
+		
+		</table>
+		<p></p>
+		<script type="text/javascript">
+			if (fetch_cookie('mb_collapse')!=null && fetch_cookie('mb_collapse')!='') {
+				hideCollapse(fetch_cookie('mb_collapse'));
+			}
+		</script>
 </div>
 
 
 
 
-						
-	
-	
-	
-		
-
-<!-- block: sidebar_online_staff -->
-
-	<div class="section staffOnline avatarList">
-		<div class="secondaryContent">
-			<h3>Staff Online Now</h3>
-			<ul>
-				
-					
-						
-					
-						
-					
-						
-					
-						
-							<li>
-								<a href="index.php?members/353/" class="avatar Av353s" data-avatarhtml="true"><img src="data/avatars/s/0/353.jpg?1465069314" width="48" height="48" alt="mejlis"></a>
-								<a href="index.php?members/353/" class="username" dir="auto">mejlis</a>
-								<div class="userTitle">Community Admin</div>
-							</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-				
-			</ul>
-		</div>
-	</div>
-
-<!-- end block: sidebar_online_staff -->
-
-<!-- block: sidebar_online_mods -->
-
-	<div class="section staffOnline avatarList">
-		<div class="secondaryContent">
-			<h3>Moderators Online Now</h3>
-			<ul>
-				
-					
-						
-					
-						
-					
-						
-					
-						
-							<li>
-								<a href="index.php?members/353/" class="avatar Av353s" data-avatarhtml="true"><img src="data/avatars/s/0/353.jpg?1465069314" width="48" height="48" alt="mejlis"></a>
-								<a href="index.php?members/353/" class="username" dir="auto">mejlis</a>
-								<div class="userTitle">Community Admin</div>
-							</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-							<li>
-								<a href="index.php?members/11022/" class="avatar Av11022s" data-avatarhtml="true"><img src="data/avatars/s/11/11022.jpg?1440016583" width="48" height="48" alt="lcaraway"></a>
-								<a href="index.php?members/11022/" class="username" dir="auto">lcaraway</a>
-								<div class="userTitle">Community Moderator</div>
-							</li>
-						
-					
-						
-					
-						
-					
-				
-			</ul>
-		</div>
-	</div>
-
-<!-- end block: sidebar_online_mods-->
+<!-- End forum list -->
 
 
 
 
-<!-- block: sidebar_online_users -->
-<div class="section membersOnline userList">		
-	<div class="secondaryContent">
-		<h3><a href="index.php?online/" title="See all online users">Members Online Now</a></h3>
-		
-		
-		
-			
-			
-			<ol class="listInline">
-				
-					
-						<li>
-						
-							<a href="index.php?members/44936/" class="username">Harlekin</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/34261/" class="username">LordOfNoobs</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/45533/" class="username">cloudburst27</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/353/" class="username">mejlis</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/69036/" class="username">Ahumana</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/51002/" class="username">Lita1994</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/70071/" class="username">Xemnous</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/60314/" class="username">rlj</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/73114/" class="username">OverKilledBro</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/61610/" class="username">John Stark</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/26986/" class="username">ApolloMars</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/73097/" class="username">পাইখানামানব০১</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/18862/" class="username">Anni</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/53782/" class="username">Smashoody</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/61871/" class="username">RKN</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/61351/" class="username">Ultia</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/7666/" class="username">Rehnegade17</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/71892/" class="username">Ember_Hunter</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/70117/" class="username">DIMTI</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/67607/" class="username">Dankvaiz</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/68485/" class="username">Kingjori</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/8388/" class="username">ParagonPrime</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/5306/" class="username">Tombraider</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/47649/" class="username">TConn</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/11906/" class="username">Vorv</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/67793/" class="username">Mey05</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/55700/" class="username">skingg</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/9828/" class="username">Azilvl</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/17671/" class="username">Rikito</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/60043/" class="username">Hood97</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/20786/" class="username">FirstDeath</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/35486/" class="username">NewLeaves</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/72702/" class="username">ItsSniiper</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/44202/" class="username">klemnec</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/53527/" class="username">MonkeyKiller180</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/51443/" class="username">vainbob</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/66599/" class="username">Encanis</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/58299/" class="username">popcornlover21</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/55616/" class="username">Marcozzzz</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/62408/" class="username">ChaoticNeutral</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/20552/" class="username">Chicken the God</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/53065/" class="username">Khantalas</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/22856/" class="username">SkarfPls</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/53614/" class="username">Submonsterine</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/71549/" class="username">vdubl</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/72064/" class="username">SUPER300</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/21553/" class="username">Kcnkcn</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/61505/" class="username">Ezio@123</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/11022/" class="username">lcaraway</a>,
-						
-						</li>
-					
-				
-					
-						<li>
-						
-							<a href="index.php?members/72708/" class="username">mandizai</a>
-						
-						</li>
-					
-				
-					
-				
-				
-					<li class="moreLink">... <a href="index.php?online/" title="See all visitors">and 1 more</a></li>
-				
-			</ol>
-		
-		
-		<div class="footnote">
-			Total: 65 (members: 64, guests: 1, robots: 0)
-		</div>
+
+
+
 	</div>
 </div>
-<!-- end block: sidebar_online_users -->
-		
-		<!-- block: forum_stats -->
-		<div class="section">
-			<div class="secondaryContent statsList" id="boardStats">
-				<h3>Forum Statistics</h3>
-				<div class="pairsJustified">
-					<dl class="discussionCount"><dt>Discussions:</dt>
-						<dd>71,916</dd></dl>
-					<dl class="messageCount"><dt>Messages:</dt>
-						<dd>1,005,303</dd></dl>
-					<dl class="memberCount"><dt>Members:</dt>
-						<dd>57,702</dd></dl>
-					<dl><dt>Latest Member:</dt>
-						<dd><a href="index.php?members/73133/" class="username" dir="auto">Michaelp354</a></dd></dl>
-					<!-- slot: forum_stats_extra -->
-				</div>
-			</div>
-		</div>
-		<!-- end block: forum_stats -->
-		
-			
-	
-	<div class="section infoBlock sharePage">
-		<div class="secondaryContent">
-			<h3>Share This Page</h3>
-			
-				
-				
-					<div class="tweet shareControl">
-						<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="en-US" data-url="http://forums.vainglorygame.com/index.php">Tweet</a>
-					</div>
-						
-				
-					<div class="facebookLike shareControl">
-						
-						<fb:like href="http://forums.vainglorygame.com/index.php" layout="button_count" action="like" font="trebuchet ms" colorscheme="dark"></fb:like>
-					</div>
-				
-					
-						
-			
-		</div>
-	</div>
 
-		
+
+	
 	
 
-						
-						
-					</div>
-				</aside>
-			
-			
-						
-			<div class="breadBoxBottom">
 
-<nav>
+
 	
 
-	<fieldset class="breadcrumb" style="">
-		<a href="index.php?misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheoverlay="true" title="Open quick navigation"><!--Jump to...--></a>
-			
-		<div class="boardTitle"><strong>Vainglory Community Forums</strong></div>
+
+
+
+
+
+
 		
-		<span class="crumbs">
-			
-				<span class="crust homeCrumb">
-					<a href="http://vainglorygame.com" class="crumb"><span>Vainglorygame.com</span></a>
-					<span class="arrow"><span></span></span>
-				</span>
-			
-			
-			
-				<span class="crust selectedTabCrumb">
-					<a href="http://forums.vainglorygame.com/index.php" class="crumb"><span>Forums</span></a>
-					<span class="arrow"><span>&gt;</span></span>
-				</span>
-			
-			
-			
-		</span>
-	</fieldset>
-</nav></div>
-			
-						
-			
-						
-		</div>
-	</div>
-</div>
+		
+
+		
+		
+
+
+		<div id="hover_card_content" style="display: none;"></div>
+		<script type="text/javascript">
+		  var vglnk = { api_url: '//api.viglink.com/api',
+						key: 'ccc2217bc2b75c4bdf5f7e57267f0464' };
+
+		  (function(d, t) {
+			var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+			s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+					 '//cdn.viglink.com/api') + '/vglnk.js';
+			var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+		  }(document, 'script'));
+		</script>
+
+
+	<!--Below elemt used to set iframe height for down-sizing-->
+	<div data-iframe-height="" style="position: relative"></div>
+	
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src=""><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div><div class="lb-saveContainer"><a href="/images/lightbox2/image-2.jpg" class="lb-save"></a></div></div></div></div><br><br><div id="presence" style="position: fixed; height: 31px; bottom: 0px; right: 0px; width: 210px;"><div id="presence_bar"><div id="buddyList" class="content" style="display: none; width: 195px;"><h2 id="buddyListHeader" onclick="wtbChat.closeBuddyList()" style="width:195px"><span id="headerTitle">Chat (ewefwf)</span></h2><div class="clearfix" id="buddy_list_panel"><div class="settings" id="buddy_list_panel_settings_control"><a class="panel_item" href="#" onclick="wtbChat.toggleOptions(); return false;"><span id="options_item"><div class="panel_icon"></div>Options</span></a><div class="flyout hidden_elem" id="buddy_list_panel_settings_flyout"><div class="chat_setting clearfix" id="chat_setting_sound"><div class="input_box"><span class="show_loading"><img src="https://chatbar.websitetoolbox.com/cometchat/css/images/indicator_blue_small.gif"></span><span class="hide_loading"><input type="checkbox" id="chat_setting_checkbox_sound" onclick="wtbChat.updateSoundSettings()"></span></div><label for="chat_setting_checkbox_sound">Play Sound for New Messages</label></div><div class="chat_setting clearfix" id="chat_setting_sticky_buddylist"><div class="input_box"><span class="show_loading"><img src="https://chatbar.websitetoolbox.com/cometchat/css/images/indicator_blue_small.gif"></span><span class="hide_loading"><input type="checkbox" id="checkbox_sticky_buddylist" onclick="wtbChat.updateStickyBuddyListSettings()"></span></div><label for="checkbox_sticky_buddylist">Keep Online Friends Window Open</label></div></div></div></div><div id="google_adds" class="google_adds" style="display:none;"><iframe id="googleAdd" src="" frameborder="0" style="height:125px;width:125px"></iframe></div><div id="login_panel"><div id="loginArea" style="display: none;"><table cellspacing="1" cellpadding="1" align="center" width="100%"><tbody><tr height="30"><td width="30%"><span class="login_area">Username:</span></td><td width="70%"><input id="wtbUsername" type="text" style="width: 125px;"></td></tr><tr height="30"><td width="30%"><span class="login_area">Password:</span></td><td width="70%"><input id="wtbPassword" type="password" style="width: 125px;"></td></tr><tr height="30"><td width="30%"></td><td width="70%"><input class="login_button" type="button" onclick="wtbChat.doLogin()" value="OK"><input class="login_button" type="button" onclick="wtbChat.cancelLogin()" value="Cancel"></td></tr></tbody></table></div><div id="chat_availability_toggle" class="available"><span id="chat_availability_toggle_image"><span><img id="loadingImg" src="https://chatbar.websitetoolbox.com/cometchat/css/images/indicator_blue_small.gif" style="display: none;"></span><div id="onlineImg" class="buddy_icon sx_icons_im_online" style="display: block;"></div><div id="offlineImg" class="buddy_icon sx_icons_im_offline" style="display: none;"></div><div id="idleImg" class="buddy_icon sx_icons_im_away" style="display: none;"></div></span><div id="available" class="availability_text" style="display: block;">You are Online.  <a id="offline" onclick="wtbChat.doLogout()">Go Offline</a></div><div id="unAvailable" class="availability_text" style="display: none;">You are Offline. <a id="online" onclick="wtbChat.showLoginDiv()">Go Online</a></div><div id="idle" class="availability_text" style="display: none;">You are Idle.</div></div></div><div id="buddyListError" class="buddy_list_error" style="display: none;">Loading...</div><div id="buddyListAll" style="display: block; height: 30px;"><ul id="buddyListParent" class="list_select"><li id="buddyListEmptyItem" class="info_text">No one is currently available to chat.</li></ul></div><div id="powered_by" style="display:none;">Powered by <a href="http://www.websitetoolbox.com" target="blank"> Website Toolbox</a></div></div><div id="buddy_list_tab" class="presence_bar_button" onclick="wtbChat.manageAutoLogin()" onmouseover="dojo.query(this).addClass('hover')" onmouseout="dojo.query(this).removeClass('hover')"><div id="tab_border"></div><div class="inner_button"><div id="tabOnlineImg" class="buddy_icon sx_icons_im_online" style="display: block;"></div><div id="tabOfflineImg" class="buddy_icon sx_icons_im_offline" style="display: none;"></div><div id="tabIdleImg" class="buddy_icon sx_icons_im_away" style="display: none;"></div><div id="tabLoadingImg" class="sx_icons_im_loading" style="display: none;"></div><div id="buddy_count">Chat <span id="buddyCountNumber" class="buddy_count_num">(<strong>0</strong>)</span></div></div></div><div id="chat"><div id="chat_tab_bar"></div></div></div></div><div id="sm2-container" class="movieContainer " style="position: absolute; width: 6px; height: 6px; top: -9999px; left: -9999px;"><embed name="sm2movie" id="sm2movie" src="https://chatbar.websitetoolbox.com/cometchat/js/swf/soundmanager2.swf" width="100%" height="100%" quality="high" allowscriptaccess="always" bgcolor="#ffffff" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowfullscreen="false"></div></body>
