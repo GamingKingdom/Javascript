@@ -7,6 +7,11 @@
 	  <div>
         <script  type="text/javascript" id="embedded_forum" src="https://gamingkingdom.discussion.community/js/mb/embed.js"></script>
 	  <noscript><a href="https://gamingkingdom.discussion.community/">Forum</a></noscript>
+		  <script>function filter_ptags_on_images($content){
+    return preg_replace('/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
+}
+
+add_filter('content', 'filter_ptags_on_images');</script>
 	  </div>
   </body>
   </html>
