@@ -6,3 +6,15 @@
   left: 0;
   bottom: 0;
 }
+
+#forum_logo
+{
+ float: left; 
+}
+
+.page_heading_txt
+{
+ display: inline_flex;
+  position: relative;
+  top: 50px;
+}
