@@ -35,6 +35,7 @@ li a:hover:not(.active) {
      position: relative;
     top: 15px;
     left: 0px;   
+    cursor: pointer;
 }
 
 .page_title {
