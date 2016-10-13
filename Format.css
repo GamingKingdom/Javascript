@@ -26,3 +26,15 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+
+#forum_logo {
+     position: relative;
+    top: 50px;
+    left: 20px;   
+}
+
+.page_title {
+    position: relative;
+    top: 50px;
+    left: 20px;   
+}
