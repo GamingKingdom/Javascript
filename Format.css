@@ -1,3 +1,7 @@
+body {
+    background-color: #FFFFFF;   
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,7 +38,5 @@ li a:hover {
 }
 
 .page_title {
-    position: relative;
-    top: 50px;
-    left: 20px;   
+    text-align: center;  
 }
