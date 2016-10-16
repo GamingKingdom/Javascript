@@ -54,5 +54,6 @@ li a:hover:not(.active) {
 }
 
 #header {
-  background-color: #4CAF50;
+  color: #4CAF50;
+  text-align: center;
 }
