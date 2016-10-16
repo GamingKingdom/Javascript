@@ -54,6 +54,8 @@ li a:hover:not(.active) {
 
 #text {
  color: #4CAF50; 
+ text-align: left;
+ width: 80%;
 }
 
 #navbar {
