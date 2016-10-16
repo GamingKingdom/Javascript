@@ -77,6 +77,13 @@ li a:hover:not(.active) {
 #article {
   color: #4CAF50;
     text-align: left;
-    width: 50%;
     height: 300px;
+}
+
+#articleBorder {
+    width: 50%;
+    border-width: 5pt;
+    border-color: #4CAF50;
+    border-style: solid;   
+    height: 250px;
 }
