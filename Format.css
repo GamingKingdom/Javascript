@@ -73,3 +73,10 @@ li a:hover:not(.active) {
     border-style: solid;   
     height: 250px;
 }
+
+#article {
+  color: #4CAF50;
+    text-align: left;
+    width: 50%;
+    height: 300px;
+}
