@@ -80,7 +80,18 @@ li a:hover:not(.active) {
     height: 300px;
 }
 
-#articleBorder {
+#articleBorderL {
+    margin-right: 1%;
+    width: 48%;
+    float: left;
+    border-width: 5pt;
+    border-color: #4CAF50;
+    border-style: solid;   
+    height: 300px;
+}
+
+#articleBorderR {
+    margin-left: 1%;
     width: 48%;
     float: left;
     border-width: 5pt;
