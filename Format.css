@@ -82,6 +82,7 @@ li a:hover:not(.active) {
 
 #articleBorder {
     width: 50%;
+    float: left;
     border-width: 5pt;
     border-color: #4CAF50;
     border-style: solid;   
