@@ -71,4 +71,5 @@ li a:hover:not(.active) {
     border-width: 5pt;
     border-color: #4CAF50;
     border-style: solid;   
+    height: 250px;
 }
