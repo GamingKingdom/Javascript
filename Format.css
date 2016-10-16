@@ -42,3 +42,13 @@ li a:hover:not(.active) {
     text-align: center;
     color: #FFFFFF;
 }
+
+#content {
+  float: left ;
+  width: 80% ;
+}
+
+#navbar {
+  float: left ;
+  width: 20% ;
+}
