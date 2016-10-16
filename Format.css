@@ -52,3 +52,7 @@ li a:hover:not(.active) {
   float: left ;
   width: 20% ;
 }
+
+#header {
+  background-color: #4CAF50;
+}
