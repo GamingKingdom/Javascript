@@ -113,3 +113,10 @@ li a:hover:not(.active) {
 td {
  color: #4CAF50;
 }
+
+#signUp {
+    color: #4CAF50;
+     top: 30px;
+    left: 47%;
+    position: relative;   
+}
